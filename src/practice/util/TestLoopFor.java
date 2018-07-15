@@ -14,7 +14,7 @@ public class TestLoopFor {
 	
 	public static void main(String[] args) {
 		
-		Map<Integer,String> map = new HashMap<Integer,String>();
+	  Map<Integer,String> map = new HashMap<Integer,String>();
 	  
 	  map.put(11, "11");
 	  map.put(22, "22");
@@ -22,7 +22,6 @@ public class TestLoopFor {
 	  
 	  //这里边有个自动拆箱？ 实际中还是不要写这么花哨的代码
 	  for( int i : map.keySet()){
-		  
 		  System.out.println(i);
 	  }
 	  
