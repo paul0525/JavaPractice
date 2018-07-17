@@ -10,7 +10,7 @@ import java.util.TreeMap;
  * @version 2018年7月15日 上午9:24:16
  * 
  *  最近在看算法和数据结构
- *  这个类主要无下二叉树
+ *  这个类主要展示二叉树
  *  没找到java对图的实现
  */
 public class TestMap {
