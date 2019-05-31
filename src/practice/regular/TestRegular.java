@@ -14,7 +14,7 @@ public class TestRegular {
 		String name1 = "中人民";
 		String name2 = "人民";
 		String name3 = "人AB民";
-		System.out.println(name.replaceAll("(?<=.{1}).(?=.{1})", "*"));
+		System.out. println(name.replaceAll("(?<=.{1}).(?=.{1})", "*"));
 		System.out.println(name1.replaceAll("(?<=.{1}).(?=.{1})", "*"));
 		System.out.println(name2.replaceAll("(?<=.{1}).(?=.{1})", "*"));
 		System.out.println(name3.replaceAll("(?<=.{1}).(?=.{1})", "*"));
