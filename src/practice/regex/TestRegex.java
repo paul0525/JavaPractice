@@ -11,5 +11,7 @@ public class TestRegex {
 		System.out.println( testStr.replaceAll("省|市",""));
 		System.out.println( testStr.replaceAll("(省|市|区)$","a"));
 		System.out.println( testStr.replaceAll("省|市|区$","a"));
+		
+		System.out.println("abcd".substring(1,4));
 	}
 }
