@@ -13,7 +13,6 @@ public class TestCountDownLatch {
 	public static void main(String args[]){
 		
 		int nThread = 10;
-		
 		CountDownLatch countDownLatch = new CountDownLatch(nThread);
 		for(int i = 0; i < nThread; i++ ){
 			final int temp = i;
