@@ -87,7 +87,7 @@ public class LogoImageUtils {
 
 
     /**
-     * 把图片切成圆解
+     * 图片裁剪
      * @param srcImage
      * @param radius 圆的直径
      * @return
